@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo circular -->
+  <circle cx="256" cy="256" r="240" fill="#FF6B6B" stroke="#FFFFFF" stroke-width="8"/>
+  
+  <!-- Icono de restaurante -->
+  <g transform="translate(256, 256)">
+    <!-- Plato -->
+    <circle cx="0" cy="20" r="80" fill="#FFFFFF" stroke="#FF6B6B" stroke-width="4"/>
+    
+    <!-- Tenedor -->
+    <rect x="-120" y="-80" width="8" height="120" fill="#FFFFFF" rx="4"/>
+    <rect x="-135" y="-80" width="8" height="60" fill="#FFFFFF" rx="4"/>
+    <rect x="-125" y="-80" width="8" height="60" fill="#FFFFFF" rx="4"/>
+    <rect x="-115" y="-80" width="8" height="60" fill="#FFFFFF" rx="4"/>
+    <rect x="-105" y="-80" width="8" height="60" fill="#FFFFFF" rx="4"/>
+    
+    <!-- Cuchara -->
+    <rect x="120" y="-80" width="8" height="120" fill="#FFFFFF" rx="4"/>
+    <circle cx="124" cy="-60" r="20" fill="#FFFFFF"/>
+    
+    <!-- Cuchillo -->
+    <rect x="80" y="-80" width="6" height="120" fill="#FFFFFF" rx="3"/>
+    <polygon points="77,-80 89,-80 86,-100 80,-100" fill="#FFFFFF"/>
+  </g>
+  
+  <!-- Texto "Food" -->
+  <text x="256" y="400" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#FFFFFF">Food</text>
+  <text x="256" y="450" font-family="Arial, sans-serif" font-size="32" font-weight="normal" text-anchor="middle" fill="#FFFFFF">App</text>
+</svg>
